@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+lib/
+
+# Build artifacts
+artifacts/
+cache/
+out/
+typechain-types/
+dist/
+foundry-cache/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+coverage.json
+lcov.info
+
+# Gas reports
+gas-report.txt
+
+# Deployment
+ignition/deployments/
+broadcast/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test artifacts
+.nyc_output/
+
+# Temporary files
+tmp/
+temp/
